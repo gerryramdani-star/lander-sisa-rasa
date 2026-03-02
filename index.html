@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisa Rasa - Detail Novel</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Menggunakan font Inter yang sangat nyaman untuk membaca panjang */
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+        }
+        
+        /* Custom warna utama berdasarkan gambar */
+        .bg-primary { background-color: #6d4aff; }
+        .text-primary { color: #6d4aff; }
+        .hover-bg-primary:hover { background-color: #5835eb; }
+        
+        /* Warna social media */
+        .bg-facebook { background-color: #4267B2; }
+        .bg-instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+    </style>
+</head>
+<!-- Latar belakang putih bersih untuk menonjolkan area konten (slim container) -->
+<body class="bg-white min-h-screen flex items-center justify-center p-4 py-12 md:py-24">
+
+    <!-- 
+      KONTENER UTAMA (SLIM)
+      max-w-4xl (sekitar 896px) membuat tampilan sangat fokus di tengah
+    -->
+    <div class="w-full max-w-4xl mx-auto relative mt-24 md:mt-0">
+        
+        <!-- Kotak Background Abu-abu -->
+        <!-- md:ml-16 memberikan ruang di sebelah kiri agar gambar bisa overlap -->
+        <div class="bg-[#f5f5f7] rounded-lg md:ml-[100px] p-6 pt-40 md:pt-10 md:pb-12 md:pr-10 md:pl-[180px] relative shadow-sm">
+            
+            <!-- GAMBAR SAMPUL BUKU (OVERLAP) -->
+            <!-- Position absolute menarik gambar keluar dari alur normal dokumen -->
+            <div class="absolute top-[-120px] left-1/2 -translate-x-1/2 md:top-1/2 md:-translate-y-1/2 md:left-[-100px] md:translate-x-0 w-[180px] h-[260px] rounded-md shadow-2xl overflow-hidden z-10 bg-slate-800 border border-slate-700">
+                <img src="https://raw.githubusercontent.com/gerryramdani-star/lander-sisa-rasa/refs/heads/main/asset/cover%20Sisa%20Rasa.png" alt="Cover Novel Sisa Rasa" class="w-full h-full object-cover">
+            </div>
+
+            <!-- AREA KONTEN KANAN -->
+            <div class="w-full">
+                
+                <!-- Header: Judul & Social Share -->
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <h1 class="text-3xl font-bold text-slate-800">Sisa Rasa</h1>
+                    
+                    <!-- Social Icons -->
+                    <div class="flex gap-2">
+                        <a href="#" class="w-8 h-8 rounded-full bg-facebook text-white flex items-center justify-center hover:opacity-90 transition-opacity">
+                            <i data-lucide="facebook" class="w-4 h-4 fill-current"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-instagram text-white flex items-center justify-center hover:opacity-90 transition-opacity">
+                            <i data-lucide="instagram" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Penulis -->
+                <div class="flex items-center gap-2 mt-3">
+                    <!-- Avatar Penulis -->
+                    <div class="w-6 h-6 rounded-full bg-pink-200 overflow-hidden border border-slate-300">
+                        <img src="https://raw.githubusercontent.com/gerryramdani-star/lander-sisa-rasa/refs/heads/main/asset/Rieka%20tresna.png" alt="Author" class="w-full h-full object-cover">
+                    </div>
+                    <span class="text-sm text-slate-600">rieka tresna</span>
+                </div>
+
+                <!-- Rating Usia -->
+                <div class="flex items-center gap-1.5 mt-3 text-slate-600">
+                    <i data-lucide="book-open" class="w-4 h-4"></i>
+                    <span class="text-sm font-medium">16+</span>
+                </div>
+
+                <!-- Statistik (Follow & Read) -->
+                <div class="flex items-center gap-6 mt-4">
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-lg font-bold text-slate-800">2.0K</span>
+                        <span class="text-xs text-slate-500 font-medium uppercase tracking-wide">Follow</span>
+                    </div>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-lg font-bold text-slate-800">16.5K</span>
+                        <span class="text-xs text-slate-500 font-medium uppercase tracking-wide">Read</span>
+                    </div>
+                </div>
+
+                <!-- Tags / Kategori -->
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">dark</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">family</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">HE</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">escape while being pregnant</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">fated</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">opposites attract</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">second chance</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">friends to lovers</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">drama</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">sweet</span>
+                    <span class="px-3 py-1 bg-gray-200/80 text-gray-600 text-xs rounded-md">office/work place</span>
+                </div>
+
+                <!-- Tombol Aksi -->
+                <div class="flex items-center gap-3 mt-8">
+                    <!-- Tombol Start Reading -->
+                    <a href="#free-preview" class="bg-primary hover-bg-primary text-white font-medium py-3 px-12 rounded-full transition-colors flex-1 md:flex-none text-center block">
+                        Start Reading
+                    </a>
+                    <!-- Tombol Like / Favorit -->
+                    <button id="like-btn" class="w-12 h-12 rounded-full bg-primary hover-bg-primary text-white flex items-center justify-center transition-colors shadow-sm flex-shrink-0">
+                        <i data-lucide="heart" id="heart-icon" class="w-5 h-5 transition-all duration-200"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- SECTION BLURB (BARU) -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 md:p-8 mt-6">
+            <!-- Header Blurb -->
+            <div class="flex items-center gap-3 mb-6">
+                <!-- Ikon Buku -->
+                <div class="bg-indigo-50 text-primary p-2 rounded-lg flex items-center justify-center">
+                    <i data-lucide="book-text" class="w-5 h-5 fill-indigo-100"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-800">Blurb</h2>
+            </div>
+            
+            <!-- Konten Blurb (Disesuaikan untuk Keterbacaan) -->
+            <div class="text-slate-700 leading-[1.8] space-y-5 text-[16px] md:text-[17px]">
+                <p>Disclaimer : Cerita ini mengandung kekerasan emosional, luka batin, trauma dan konflik moral yang menyentuh konflik sensitif dan bisa menimbulkan ketidaknyamanan, tapi gak bisa berhenti baca loh.</p>
+                
+                <p class="text-slate-400 text-center">*</p>
+                
+                <p>"Aku menikahimu bukan karena cinta, Rumi. Tapi untuk memastikan tidak ada lelaki lain yang bisa memilikimu, sementara aku sendiri tidak sudi menyentuhmu."</p>
+                
+                <p class="text-slate-400 text-center">*</p>
+                
+                <p>Gagah, kaya raya, setia dan perjaka! Tidak ada yang kurang pada Jagad Syailendra, kecuali hadirnya seorang istri yang dia cinta karena dendam menguasai hatinya.</p>
+                
+                <p class="text-slate-400 text-center">*</p>
+                
+                <p>Tiga tahun lalu, Lituhayu Nirbita Rumi meninggalkan Jagad, pria yang mencintainya setengah mati, demi sebuah alasan yang tidak bisa terucap. Roda nasib berputar. Jagad kini sukses sebagai CEO Syailendra Group yang dingin, kejam, dan berkuasa, sementara Rumi tersudut oleh keadaan yang memaksanya menyerahkan diri ke dalam genggaman sang mantan.</p>
+                
+                <p class="text-slate-400 text-center">*</p>
+
+                <p>Jagad melihat kesempatan sempurna untuk membalas dendam. Dia mengikat Rumi dalam sebuah pernikahan siri yang dirahasiakan, tanpa cincin, tanpa pesta, tanpa pengakuan dan melabelinya sebagai w************n. Sebuah pernikahan di bawah tangan yang penuh intrik, kecemburuan buta, dan gengsi setinggi langit.</p>
+
+                <p class="text-slate-400 text-center">*</p>
+
+                <p>Sayangnya, Jagad lupa satu hal. Kebencian dan obsesi adalah dua sisi mata uang yang sama. Semakin dia berusaha menyiksa Rumi, semakin dia tersiksa oleh perasaannya sendiri. Lalu, saat rahasia besar yang disembunyikan Rumi selama ini perlahan terkuak, sanggupkah Jagad menanggung penyesalan seumur hidupnya? Ataukah Rumi memilih menyerah dan meninggalkan Jagad ke lelaki lain?</p>
+
+                <p class="text-slate-400 text-center">*</p>
+
+                <p>Saat dua hati yang saling mencintai namun dipisahkan oleh dinding ego dan kesalahpahaman, siapakah yang akan menyesal lebih dulu? Rumi dengan pengorbanannya, atau Jagad dengan keangkuhannya?</p>
+            </div>
+        </div>
+
+        <!-- SECTION FREE PREVIEW (BARU) -->
+        <div id="free-preview" class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 md:p-8 mt-6 mb-12 scroll-mt-6">
+            <!-- Header Free Preview -->
+            <div class="flex items-center gap-3 mb-8">
+                <!-- Ikon Buku Terbuka -->
+                <div class="bg-indigo-50 text-primary p-2 rounded-lg flex items-center justify-center">
+                    <i data-lucide="book-open" class="w-5 h-5 fill-indigo-100"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-800">Free preview</h2>
+            </div>
+            
+            <!-- Judul Bab -->
+            <h3 class="text-xl md:text-2xl font-bold text-slate-900 text-center mb-8">Part 1. Layani Aku!</h3>
+            
+            <!-- Konten Cerita -->
+            <div class="text-slate-800 leading-[1.8] space-y-6 text-[16px] md:text-[17px]">
+                <p>"Lihat ke arah sini, Rumi! Jangan berani tutup matamu!"</p>
+
+                <p>Suara Jagad Syailendra membelah ruangan. Dia duduk di sofa, diapit dua wanita dengan pakaian minim yang menggerayangi tubuh kekarnya penuh syahwat. Mata tajamnya yang bak elang, tepat menghujam ke manik mata indah seorang gadis yang berdiri tidak jauh di depannya.</p>
+
+                <p>Bibir lelaki itu menyeringai seram, saat melihat gadis yang dipanggilnya Rumi itu, balik menatap ke arahnya tak kalah tajam.</p>
+
+                <p>Rumi membalas tatapan itu, amarahnya berkelebat cepat sebelum mual menguasai perutnya. Pemandangan yang tersaji di depannya, d**a telanjang Jagad yang berotot, perut kotak-kotaknya dan tangan-tangan liar yang menyentuhnya, merupakan siksaan visual yang dipaksakan untuk dia lihat.</p>
+
+                <p>Yang aneh, Jagad sama sekali tidak merespon sentuhan dan gerayangan liar pada tubuhnya, karena dia hanya fokus pada gadis manis yang berdiri di depannya, yang dia paksa untuk menonton pertunjukkan gila ini untuk kesekian kali : bahwa dia mampu untuk membayar sebanyak apa pun w************n untuk memuaskan dirinya! Sentuhan buas para wanita itu bagaikan angin lalu untuknya. Seluruh fokusnya terkunci pada Rumi, sebuah pertunjukan gila yang dia rancang untuk memamerkan kendali dan kekayaannya.</p>
+                
+                <p>Salah satu wanita bayaran itu menciumi d**a Jagad dengan rakus, lenguhan dan desahan terdengar dari bibirnya, tubuhnya bergerak gelisah mencari pemuasan. Sia-sia saja. Jagad bahkan tidak meliriknya. Lelaki yang sudah membayar jasa mereka dengan nominal yang luar biasa besar itu, hanya terfokus pada gadis manis yang berdiri dengan kaki gemetar melihat ke arah mereka! Dipaksa untuk melihat kebinalan mereka menggerayangi tubuh Jagad.</p>
+
+                <p>Keheningan tegang memenuhi ruangan, hanya diisi oleh suara napas berat dan gesekan pakaian. Sudah sepuluh menit lebih wanita-wanita ini coba membangkitkan gairah lelaki super tampan ini, hingga kemudian karena sudah tidak mampu lagi menahan, salah satu dari mereka menyentuh juni.or Jagad, dengan niatan agar lelaki itu segera membawa mereka ke langit ke tujuh. Sayangnya, dia salah. Karena kesabaran Jagad putus saat itu juga.</p>
+
+                <p>Cengkeraman tangan Jagad mengunci lengan wanita itu. Jeritan kecil kesakitan terdengar memenuhi ruangan.</p>
+
+                <p>"Sudah kubilang jangan sentuh area itu! Kalian dibayar untuk jadi tontonan, bukan menyentuh area privasiku! Keluar!" Bentaknya menggelegar, marah dan membuat dua wanita tadi ciut nyalinya. Jagad hanya menatap Rumi saat mengucapkan kalimat itu.</p>
+
+                <p>“T-tapi… Tuan, tolong Tuan, puaskan kami! Jangan nanggung seperti ini, Tuan. Rasanya sungguh tidak enak.” Pinta salah satunya, penuh permohonan. Dia bahkan sudah meloloskan kemeja yang dia pakai, siapa tahu bisa membangkitkan syahwat Jagad padanya.</p>
+
+                <p>Nyatanya…, “Dikta! Seret dua wanita ini dari hadapanku dan jangan sampai aku melihat wajah mereka lagi!”</p>
+
+                <p>Entah pada siapa Jagad berteriak memberi titah, tapi kemudian, pintu terbuka dan satu sosok pemuda yang tidak kalah tampan masuk, sedikit melirik dan menunduk ke arah Rumi tapi segera menyeret paksa dua wanita bayaran tadi yang menjerit tidak rela dan bersumpah serapah, tentu saja menyumpahi Jagad.</p>
+
+                <p>"Satu kata lagi menyumpahiku, sobek bibir mereka!" Aura gelap Jagad merayap, membungkam jeritan dua wanita itu menjadi ketakutan yang hening.</p>
+
+                <p>Jagad bangkit. Tubuh kekarnya memancarkan bahaya, bergerak mendekati Rumi yang berdiri terpaku di tempat. Rumi mundur, punggungnya membentur dinding dingin. Jagad menjebaknya, menyandarkan lengan kekarnya di kedua sisi kepala Rumi. Aroma maskulin yang khas menyeruak, memenuhi ruang sempit di antara mereka.</p>
+
+                <p>Rumi diam membisu, hanya matanya yang mencerca, penuh kemuakan.</p>
+
+                <p>Jagad menyeringai seram, tubuh atasnya yang telanjang menekan Rumi ke dinding. Ibu jari dan telunjuknya mencengkeram dagu Rumi, memaksa mata mereka bertemu.</p>
+
+                <p>"Bagaimana dengan apa yang kamu lihat tadi, Rumi? Kenapa mata indahmu menatapku seperti itu, heum? Memangnya kamu tidak ingin menyentuh tubuhku? Jangan munafik, kalau kamu sentuh, sentuh saja." Suara Jagad bergetar, campuran amarah dan kerinduan yang membuncah.</p>
+
+                <p>Sungguh, di masa lalu, dia hanya mimpikan Rumi yang menjadi istrinya, menghangatkan ranjang mereka, menjadi ibu bagi anak-anaknya dan menjadikannya sebagai pasangan hidupnya hingga akhir hayat. Nyatanya, perempuan manis ini tega berkhianat! Rumi mengkhianatinya tepat saat dia sedang mencari penghidupan yang lebih baik di negara orang dengan kuliah sekaligus bekerja.</p>
+
+                <p>Wajah Jagad maju, mengikis jarak. Dia menciumi sisi wajah Rumi. Aroma sampo dan parfum manis Rumi yang tidak berlebihan, seketika membakar syahwatnya. Padahal Rumi tidak melakukan apa-apa, tapi gairahnya meledak, minta dipuaskan. Sungguh hebat yang mampu dilakukan Rumi pada naluri primitifnya.</p>
+
+                <p>Tangan Jagad terulur, jemarinya sedikit gemetar saat membelai pipi Rumi yang terasa sedingin es. Tapi Rumi tidak berteriak juga tidak menolak. Hanya menatapnya penuh kebencian.</p>
+
+                <p>“Aku tahu, kamu juga ingin menyentuh tubuhku kan, Rumi?” tanyanya dengan suara menggoda tapi Rumi malah membuang muka.</p>
+
+                <p>Mengira Rumi sedang bermain-main, Jagad menempelkan bibirnya ke bibir Rumi, mencecap bibir manis yang dirinduinya selama ini. Rumi tetap diam, tidak membalas ciumannya. Kesabaran Jagad yang setipis tisu dibelah tujuh, terkoyak.</p>
+
+                <p>"Aku tidak bicara dengan boneka. Jawab, Rumi! Kamu punya mulut, kan?!" desisnya, menekan Rumi lebih kuat dan sedikit mengangkat tubuh gadis itu hingga Rumi reflek berpegangan pada pundak Jagad agar tidak jatuh.</p>
+
+                <p>Dia bahkan sempat memekik kecil karena kaget, “aah…”</p>
+
+                <p>"Tidak usah malu-malu. Bukankah kamu sudah sering lakukan ini? Melayani lelaki lain? Memuaskan lelaki lain dengan tubuhmu yang seharusnya hanya milikku! MILIKKU, Rumi! Sentuh aku!" bentaknya.</p>
+
+                <p>"Tidak mau!" akhirnya Rumi bersuara, suaranya bergetar menahan emosi.</p>
+
+                <p>"SENTUH AKU, KATAKU! Atau..."</p>
+
+                <p>“Atau apa? Kamu akan menodaiku seperti yang berkali-kali kamu katakan selama ini?” Rumi menahan napasnya, suaranya memang bergetar tapi dia berusaha singkirkan ketakutannya. Bahkan kini suaranya dipenuhi sarkasme yang tajam, “sudah selesai dramanya, Jagad? Atau kamu mau tambah pemain supaya lebih meyakinkan?”</p>
+
+                <p>Jagad menyentuh pipi Rumi, matanya berkilat penuh amarah. Jemarinya terasa dingin, kontras dengan panas tubuhnya sendiri. Tubuh Rumi menegang hebat, jadi kaku, tapi dia tidak menepis. Kedua pergelangan tangannya sudah terkunci di dinding, membuatnya tak berdaya.</p>
+
+                <p>“Aku benci kamu yang diam seperti ini,” bisik Jagad, suaranya terdengar serak, menahan hasratnya.</p>
+
+                <p>“Aku benci kamu tidak menolak. Aku benci kamu tidak berteriak. Karena itu membuatku bertanya-tanya…” suaranya menurun menjadi geraman rendah, “apa kamu juga diam seperti ini saat dia menyentuhmu?”</p>
+
+                <p>Rumi memejamkan mata, kengerian mencengkeramnya. Dia tahu siapa 'dia' yang dimaksud Jagad. Air mata panas merembes dari sudut kelopak matanya.</p>
+
+                <p>Melihat mata terpejam itu membuat amarah Jagad meledak, "BUKA matamu!" Mau tidak mau Rumi membuka matanya.</p>
+
+                <p>Seringai Jagad berubah mengerikan, "kamu yang meminta ini, Rumi! Kamu yang menentang dan menantangku! Jadi, jangan salahku lakukan ini!”</p>
+
+                <p>BREETT!!</p>
+
+                <p>Suara kain kemeja Rumi yang ditarik paksa terdengar keras, menampakkan pemandangan yang menghampiri Jagad dengan ingatan masa lalu, sebuah pemandangan yang selalu ada di mimpi liarnya. Yaa, dulu. Rumi selalu menjadi gadis yang hadir dalam setiap mimpinya.</p>
+
+                <p>Tanpa ampun, tangan kekarnya kemudian menarik paksa rok panjang Rumi ke bawah. Pemandangan yang tersaji di depannya itu semakin memanaskan darahnya. Dia membuka celananya sendiri yang seketika terasa sesak.</p>
+
+                <p>Jagad menciumi Rumi penuh kerakusan, penuh hasrat juga keputusasaan. Ketakutan jika Rumi akan meninggalkannya lagi mencabik-cabik logikanya. Hanya ada satu cara untuk membuatnya tetap di sisinya, menjadikan Rumi miliknya seutuhnya.</p>
+
+                <p>“Layani aku!” bentaknya, napasnya memburu. “Seperti kamu melayani laki-laki sialan itu yang telah merenggutmu dariku!”</p>
+            </div>
+            
+            <!-- Tombol Continue Reading -->
+            <div class="flex justify-center mt-10">
+                <button class="bg-primary hover-bg-primary text-white font-medium py-3 px-12 md:px-16 rounded-full transition-colors shadow-md text-center">
+                    Continue Reading
+                </button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- Script inisialisasi ikon -->
+    <script>
+        lucide.createIcons();
+
+        // Fitur Tombol Like (Hati berubah merah)
+        const likeBtn = document.getElementById('like-btn');
+        const heartIcon = document.getElementById('heart-icon');
+
+        likeBtn.addEventListener('click', () => {
+            // Mengubah garis (text) dan isi (fill) menjadi merah
+            heartIcon.classList.toggle('text-red-500');
+            heartIcon.classList.toggle('fill-red-500');
+            
+            // Efek pop/berdenyut sederhana
+            heartIcon.classList.add('scale-125');
+            setTimeout(() => {
+                heartIcon.classList.remove('scale-125');
+            }, 150); // kembali ke ukuran normal setelah 150 milidetik
+        });
+    </script>
+</body>
+</html>
